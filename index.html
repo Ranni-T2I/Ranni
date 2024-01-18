@@ -35,7 +35,6 @@
     <script src="static/js/bulma-carousel.min.js"></script>
     <script src="static/js/index.js"></script>
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-    <script type="module" src="https://gradio.s3-us-west-2.amazonaws.com/4.1.1/gradio.js"></script>
 </head>
 
 <body onresize="resizeFresh()">
@@ -116,6 +115,30 @@
         </div>
     </section>
 
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-menu">
+            <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                More Research
+                </a>
+                <div class="navbar-dropdown">
+                <a class="navbar-item" href="https://ranni-t2i.github.io/Ranni">
+                    Ranni
+                </a>
+                <a class="navbar-item" href="https://simm-t2i.github.io/SimM">
+                    SimM
+                </a>
+                <a class="navbar-item" href="https://adi-t2i.github.io/ADI">
+                    ADI
+                </a>
+                </div>
+                
+            </div>
+            </div>
+        </div>
+    </nav>   
+    
     <!-- Image carousel -->
     <section class="hero is-small">
         <div class="hero-body">
@@ -249,6 +272,33 @@
     archivePrefix={arXiv},
     primaryClass={cs.CV}
 }</code></pre>
+        <span class="link-block">
+            <a href="https://ranni-t2i.github.io/Ranni" target="_blank"
+                class="external-link button is-normal is-rounded is-black">
+                <span class="icon">
+                    <img src="./static/images/github-mark-white.png" alt="">
+                </span>
+                <span>Ranni</span>
+            </a>
+        </span>
+        <span class="link-block">
+            <a href="https://simm-t2i.github.io/SimM" target="_blank"
+                class="external-link button is-normal is-rounded is-black">
+                <span class="icon">
+                    <img src="./static/images/github-mark-white.png" alt="">
+                </span>
+                <span>SimM</span>
+            </a>
+        </span>
+        <span class="link-block">
+            <a href="https://adi-t2i.github.io/ADI" target="_blank"
+                class="external-link button is-normal is-rounded is-black">
+                <span class="icon">
+                    <img src="./static/images/github-mark-white.png" alt="">
+                </span>
+                <span>ADI</span>
+            </a>
+        </span>                
         </div>
     </section>
     <!--End BibTex citation -->
